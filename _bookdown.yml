@@ -1,8 +1,0 @@
-book_filename: "statisticsnetwork"
-delete_merged_file: true
-language:
-  ui:
-    chapter_name: " "
-# template: my-template.html
-rmd_files: ["index.Rmd"]
-output_dir: "docs"
