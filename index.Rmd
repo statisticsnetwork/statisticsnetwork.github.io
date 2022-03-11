@@ -4,12 +4,12 @@ subtitle: "An open source organisation for small business support."
 date: "`r Sys.Date()`"
 bibliography: [book.bib, packages.bib]
 url: "https://statisticsnetwork.github.io"
-cover-image: "assets/imgs/nipRyan3.png"
+cover-image: "assets/imgs/niplayers2.png"
 description: |
   An open source organisation for small business support.
 link-citations: yes
 github-repo: statisticsnetwork/statisticsnetwork.github.io
-output: bookdown::gitbook
+# output: bookdown::gitbook
 site: bookdown::bookdown_site
 profileImage: "avatar.png"
 imagehead1: "Logo creation and development"
@@ -25,7 +25,7 @@ thumbs3test: "assets/imgs/2.png"
 # image4test:  "assets/imgs/trips.jpg"
 # thumbs4test: "assets/imgs/trips.jpg"
 imagehead5: "Skate and Surf Projects"
-image5test:  "assets/imgs/nipRyan3.png"
+image5test:  "assets/imgs/niplayers2.png"
 thumbs5test: "assets/imgs/niplayers2.png"
 imagehead6: "Strange Brew Project"
 image6test:  "assets/imgs/stb_logo.png"

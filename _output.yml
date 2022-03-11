@@ -27,3 +27,4 @@ bookdown::html_document2:
     df_print: paged
     number_sections: false
     css: assets/css/main.css
+    output_dir: "docs"
