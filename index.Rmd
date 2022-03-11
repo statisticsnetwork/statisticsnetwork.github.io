@@ -1,0 +1,73 @@
+---
+title: "The Statistics Network"
+subtitle: "An open source organisation for small business support."
+date: "`r Sys.Date()`"
+bibliography: [book.bib, packages.bib]
+url: "https://statisticsnetwork.github.io"
+cover-image: "assets/imgs/nipRyan3.png"
+description: |
+  An open source organisation for small business support.
+link-citations: yes
+github-repo: statisticsnetwork/statisticsnetwork.github.io
+output: bookdown::gitbook
+site: bookdown::bookdown_site
+profileImage: "avatar.png"
+imagehead1: "Logo creation and development"
+image1test:  "assets/imgs/websiteEXs.png"
+thumbs1test: "assets/imgs/logo_logos.png"
+imagehead2: "Custom Web design"
+image2test:  "assets/imgs/websiteEXs.png"
+thumbs2test: "assets/imgs/websiteEXs.png"
+imagehead3: "Contact"
+image3test: "assets/imgs/1.png"
+thumbs3test: "assets/imgs/2.png"
+# imagehead4: "Skate and Surf Projects"
+# image4test:  "assets/imgs/trips.jpg"
+# thumbs4test: "assets/imgs/trips.jpg"
+imagehead5: "Skate and Surf Projects"
+image5test:  "assets/imgs/nipRyan3.png"
+thumbs5test: "assets/imgs/niplayers2.png"
+imagehead6: "Strange Brew Project"
+image6test:  "assets/imgs/stb_logo.png"
+thumbs6test: "assets/imgs/stb_logo.png"
+---
+
+```{r message = FALSE, warning = FALSE, echo = FALSE}
+library(knitr)
+library(tidyverse)
+library(here)
+
+##add fonts package and graduate font
+# library(fonts)
+
+knitr::opts_chunk$set(message = FALSE,   #code messages suppressed
+                      warning = FALSE,   #warning messages suppressed
+                      echo = FALSE,   #no code meta-information given
+                      cache = FALSE) #nothing will change if this is left constant
+
+#list packages
+# .packages()
+
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+<!-- <iframe src="https://discordapp.com/widget?id=944005450830077992&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
+
+
+```{r}
+library(knitr)
+knitr::include_app("https://discordapp.com/widget?id=944005450830077992&theme=dark")
+```
+
+<br>
+<center>Any enquires welcome!</centre>
+<br>
+
+<iframe src="https://discordapp.com/widget?id=944005450830077992&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+<center><i class="fa fa-envelope"></i> <a href="mailto:anthony.davidson@canberra.edu.au">anthony.davidson@canberra.edu.au<br/>
+<i class="fa fa-facebook"></i> <a href="https://www.facebook.com/statisticsnetwork">statisticsnetwork</a><br/>
+<i class="fa fa-instagram"></i> <a href="https://www.instagram.com/niptactics/">statisticsnetwork</a><br/></center>
