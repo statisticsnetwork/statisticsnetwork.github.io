@@ -1384,7 +1384,7 @@ body,
 input,
 select,
 textarea {
-    color: rgba(50, 9, 92, 0.95);
+    color: rgba(0, 0, 0, 0.95);
     font-family: 'Fondamento', cursive;
     font-size: 13pt;
     font-weight: 200;
@@ -1411,13 +1411,13 @@ a {
 }
 
 a:hover {
-    color: #ffffff;
+    color: #000000;
     border-bottom-color: transparent;
 }
 
 strong,
 b {
-    color: #ffffff;
+    color: #000000;
     font-weight: 200;
 }
 
@@ -1436,7 +1436,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #ffffff;
+    color: #000000;
     font-weight: 200;
     line-height: 1.5;
     margin: 0 0 1em 0;
@@ -1609,7 +1609,7 @@ form {
 }
 
 label {
-    color: #ffffff;
+    color: #000000;
     display: block;
     font-size: 0.9em;
     font-weight: 200;
@@ -1758,7 +1758,7 @@ input[type="checkbox"]:checked+label:before,
 input[type="radio"]:checked+label:before {
     background: #FF6382;
     border-color: #FF6382;
-    color: #ffffff;
+    color: #000000;
     content: '\f00c';
 }
 
@@ -2122,7 +2122,7 @@ table td {
 }
 
 table th {
-    color: #ffffff;
+    color: #000000;
     font-size: 0.9em;
     font-weight: 200;
     padding: 0 0.75em 0.75em 0.75em;
@@ -2259,7 +2259,7 @@ button.alt,
 .button.alt {
     background-color: transparent;
     box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
-    color: #ffffff !important;
+    color: #000000 !important;
 }
 
 input[type="submit"].alt:hover,
@@ -2366,7 +2366,7 @@ button:disabled,
     text-align: center;
     border-radius: 4px;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
-    background-color: rgba(255, 255, 255, 0.075);
+    background-color: rgba(255, 255, 255, 0.75);
     cursor: pointer;
     outline: 0;
     overflow: hidden;
@@ -2490,8 +2490,8 @@ button:disabled,
     position: relative;
     text-indent: 0;
     border-radius: 100%;
-    box-shadow: inset 0 0 0 1px #ffffff;
-    color: #ffffff !important;
+    box-shadow: inset 0 0 0 1px #000000;
+    color: #000000 !important;
     width: 2.5em;
     height: 2.5em;
     line-height: 2.5em;
