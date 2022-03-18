@@ -12,23 +12,23 @@ github-repo: statisticsnetwork/statisticsnetwork.github.io
 # output: bookdown::gitbook
 site: bookdown::bookdown_site
 profileImage: "avatar.png"
-imagehead1: "Logo and Business cards"
-image1test:  "assets/imgs/business_card.png"
-thumbs1test: "assets/imgs/logo_logos.png"
-imagehead2: "Custom Web design"
+imagehead1: "Logos and Business cards"
+image1test:  "assets/imgs/logoSPREAD.png"
+thumbs1test: "assets/imgs/business_card.png"
+imagehead2: "Ecological applications using RStudio"
 image2test:  "assets/imgs/websiteEXs.png"
 thumbs2test: "assets/imgs/rcodingPACKS.png"
 imagehead3: "Contact"
 image3test: "assets/imgs/1.png"
 thumbs3test: "assets/imgs/2.png"
-imagehead4: "Skate and Surf Projects"
-image4test:  "assets/imgs/trips.jpg"
-thumbs4test: "assets/imgs/trips.jpg"
+imagehead4: "Websites"
+image4test:  "assets/imgs/websiteEXs.png"
+thumbs4test: "assets/imgs/nipstickerweb.png"
 imagehead5: "Arjacent Projects"
-image5test:  "assets/imgs/arjacent.png"
-thumbs5test: "assets/imgs/canberraAIR4.jpg"
+image5test:  "assets/imgs/qr-code-arjacent-projects.png"
+thumbs5test: "assets/imgs/arjacent.png"
 imagehead6: "Strange Brew Project"
-image6test:  "assets/imgs/stb_deck.png"
+image6test:  "assets/imgs/strangebrewProject.png"
 thumbs6test: "assets/imgs/belco_jam_down4.png"
 ---
 
@@ -56,19 +56,26 @@ knitr::write_bib(c(
 
 <!-- <iframe src="https://discordapp.com/widget?id=944005450830077992&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
 
+@davidson_estimated_2018
 
 ```{r}
 library(knitr)
 knitr::include_app("https://discordapp.com/widget?id=944005450830077992&theme=dark")
 ```
 
+<div id="refs"></div>
+
 <br>
 <center>Any enquires welcome!</centre>
 <br>
 
-<iframe src="https://discordapp.com/widget?id=944005450830077992&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<!-- <iframe src="https://discordapp.com/widget?id=944005450830077992&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
 
-```{r child = "07-references.Rmd"}
+```{r generateBibliography, results="asis", echo=FALSE}
+require("knitcitations")
+cleanbib()
+options("citation_format" = "pandoc")
+read.bibtex(file = "book.bib")
 
 ```
 
