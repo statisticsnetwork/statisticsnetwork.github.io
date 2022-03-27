@@ -1,15 +1,15 @@
 ---
 title: "The Statistics Network"
-subtitle: "An open source organisation for small business support."
+subtitle: "An company focused on applying open source tools for small business support."
 date: "`r Sys.Date()`"
 bibliography: [book.bib, packages.bib]
 url: "https://statisticsnetwork.github.io"
 cover-image: "assets/imgs/niplayers2.png"
 description: |
-  An open source organisation for small business support.
+  An company focused on applying open source tools for small business support.
 link-citations: yes
 github-repo: statisticsnetwork/statisticsnetwork.github.io
-# output: bookdown::gitbook
+output: bookdown::gitbook
 site: bookdown::bookdown_site
 profileImage: "avatar.png"
 imagehead1: "Logos and Business cards"
@@ -31,6 +31,10 @@ imagehead6: "Strange Brew Project"
 image6test:  "assets/imgs/strangebrewProject.png"
 thumbs6test: "assets/imgs/belco_jam_down4.png"
 ---
+
+<!-- Header navbar? -->
+
+
 
 ```{r message = FALSE, warning = FALSE, echo = FALSE}
 library(knitr)
@@ -54,16 +58,96 @@ knitr::write_bib(c(
 ), 'packages.bib')
 ```
 
+<!-- # ```{r child = "01-intro.Rmd", results = "asis"} -->
+<!-- #  -->
+<!-- # ``` -->
+
+
+
+<!-- for i in the number of imageheads.... -->
+
+
+<!-- <!-- <!DOCTYPE html> --> -->
+<!--     <!-- Wrapper --> -->
+
+<!--     <div id="wrapper"> -->
+
+<!--         <!-- Header --> -->
+<!--         <header id="header"> -->
+<!--             <span class="avatar"><img src = $profileImage$ alt="" /></span> -->
+<!--             <h1>$subtitle$</h1> -->
+
+<!--  <!--           <center><i class="fa fa-envelope"></i> <a href="mailto:anthony.davidson@canberra.edu.au">anthony.davidson@canberra.edu.au<br/> -->
+<!-- <i class="fa fa-facebook"></i> <a href="https://www.facebook.com/statisticsnetwork">statisticsnetwork</a><br/> -->
+<!-- <i class="fa fa-instagram"></i> <a href="https://www.instagram.com/niptactics/">statisticsnetwork</a><br/></center> --> -->
+
+<!--             <ul class="icons"> -->
+<!--                 <li><a href="https://www.facebook.com/statisticsnetwork" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li> -->
+<!--                 <li><a href="https://www.instagram.com/niptactics/" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li> -->
+<!--                 <li><a href="mailto:anthony.davidson@canberra.edu.au" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li> -->
+<!--             </ul> -->
+<!--         </header> -->
+
+<!--         <body> -->
+<!--             <!-- Wrapper --> -->
+<!--             <div id="wrapper"> -->
+
+<!--                 <!-- Main --> -->
+<!--                 <section id="main"> -->
+<!--                     <!-- Thumbnails --> -->
+<!--                     <section class="thumbnails"> -->
+
+<!--                         <div> -->
+<!--                             <a href=$ image1test$> -->
+<!--                                 <img src=$thumbs1test$ alt="" /> -->
+<!--                                 <h3>$imagehead1$</h3> -->
+<!--                             </a> -->
+<!-- <div> -->
+<!--                             <a href=$ image2test$> -->
+<!--                                 <img src=$ thumbs2test$ alt="" /> -->
+<!--                                 <h3>$imagehead2$</h3> -->
+<!--                             </a> -->
+<!--                         </div></div> -->
+<!--                         <div> -->
+<!--                             <a href=$ image3test$> -->
+<!--                                 <img src=$ thumbs3test$ alt="" /> -->
+<!--                                 <h3>$imagehead3$</h3> -->
+<!--                             </a> -->
+<!--    <div> -->
+<!--                             <a href=$image4test$> -->
+<!--                                 <img src=$thumbs4test$ alt="" /> -->
+<!--                                 <h3>$imagehead4$</h3> -->
+<!--                             </a> -->
+<!--                              </div> -->
+<!--                           </div> -->
+<!--                           <div> -->
+<!--                             <a href=$ image5test$> -->
+<!--                                 <img src=$thumbs5test$ alt="" /> -->
+<!--                                 <h3>$imagehead5$</h3> -->
+<!--                             </a> -->
+
+<!--                         <div> -->
+<!--                             <a href=$ image6test$> -->
+<!--                                 <img src=$ thumbs6test$ alt="" /> -->
+<!--                                 <h3>$imagehead6$</h3> -->
+<!--                             </a> -->
+<!--                         </div>   -->
+<!--                       </div> -->
+<!--                     </section> -->
+                    
+                    
 <!-- <iframe src="https://discordapp.com/widget?id=944005450830077992&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
 
-@davidson_estimated_2018
+<!-- @davidson_estimated_2018 -->
 
 ```{r}
 library(knitr)
 knitr::include_app("https://discordapp.com/widget?id=944005450830077992&theme=dark")
 ```
 
-<div id="refs"></div>
+</html>
+
+<!-- <div id="refs"></div> -->
 
 <br>
 <center>Any enquires welcome!</centre>

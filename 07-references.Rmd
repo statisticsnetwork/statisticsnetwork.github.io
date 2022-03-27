@@ -1,7 +1,0 @@
-`r if (knitr::is_html_output()) '
-# Contact info {-}
-'`
-
-<center><i class="fa fa-envelope"></i> <a href="mailto:anthony.davidson@canberra.edu.au">anthony.davidson@canberra.edu.au<br/>
-<i class="fa fa-facebook"></i> <a href="https://www.facebook.com/statisticsnetwork">statisticsnetwork</a><br/>
-<i class="fa fa-instagram"></i> <a href="https://www.instagram.com/niptactics/">statisticsnetwork</a><br/></center>
