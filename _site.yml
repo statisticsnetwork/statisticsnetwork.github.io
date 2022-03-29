@@ -1,0 +1,29 @@
+name: "The Statistics Network"
+navbar:
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Support my work"
+      href: demoPage.html
+    - text: "Contact"
+      href: about.html     # CHANGE HERE 
+output_dir: "docs"                           # CHANGE HERE 
+output:
+  bookdown::html_document2:
+    template: "indexTemplate.html"
+    highlight: tango
+    fig_caption: yes
+    toc: no
+    toc_float: true
+    code_folding: hide
+    df_print: paged
+    number_sections: false
+    css: assets/css/main.css
+  # html_document:
+  #   theme: cosmo
+  #   highlight: textmate
+  # #    include:
+  # #      before_body: header.html
+  # #      after_body: footer.html
+  # # template: indexTemplate.html
+  # # css: styles.css

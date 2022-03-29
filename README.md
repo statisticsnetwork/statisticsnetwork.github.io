@@ -6,7 +6,7 @@ Open organisation for small business support using R and RStudio. This is a webs
 
 ### [arjacentprojects.github.io]("https://arjacentprojects.github.io")
 
-### [Dynamic CV]("https://davan690.github.io/about")
+### [Dynamic CV]("https://davan690.github.io/")
 
 [more coming soon ...]
 
@@ -23,6 +23,8 @@ Within this static website hosted on github pages we have the ability to customi
 When generating small business content there are many more things to do such as logos, business cards and other assorted advertising materials.
 
 Updates and support on the discord server [here](https://discord.gg/Jr8R6ArVGx).
+
+
 
 Welcome! 
 
