@@ -1,6 +1,6 @@
 ---
 title: "The Statistics Network"
-subtitle: "An company focused on applying open source tools for small business support."
+subtitle: "A company focused on applying open source tools for small business support."
 date: "`r Sys.Date()`"
 bibliography: [book.bib, packages.bib]
 url: "https://statisticsnetwork.github.io"
@@ -27,7 +27,12 @@ thumbs5test: "assets/imgs/arjacent.png"
 imagehead6: "Strange Brew Project"
 image6test:  "assets/imgs/strangebrewProject.png"
 thumbs6test: "assets/imgs/belco_jam_down4.png"
+news: "Any enquires welcome!"
 ---
+
+<!-- <br> -->
+<!-- <center>Any enquires welcome!</centre> -->
+<!-- <br> -->
 
 <!-- Header navbar? -->
 
@@ -54,7 +59,3 @@ knitr::write_bib(c(
 ```
 
 <!-- <div id="refs"></div> -->
-
-<br>
-<center>Any enquires welcome!</centre>
-<br>

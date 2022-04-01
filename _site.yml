@@ -11,13 +11,13 @@ output_dir: "docs"                           # CHANGE HERE
 output:
   bookdown::html_document2:
     template: "indexTemplate.html"
-    highlight: tango
-    fig_caption: yes
-    toc: no
-    toc_float: true
-    code_folding: hide
-    df_print: paged
-    number_sections: false
+    # highlight: tango
+    # fig_caption: yes
+    # toc: no
+    # toc_float: true
+    # code_folding: hide
+    # df_print: paged
+    # number_sections: false
     css: assets/css/main.css
   # html_document:
   #   theme: cosmo
